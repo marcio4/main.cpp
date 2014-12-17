@@ -1,4 +1,10 @@
-main.cpp
-========
+#include <stdio.h>
+#include <time.h>
+int main()
+{
 
-numeros aleatorios
+srand (time(NULL));
+int n = (rand() % 10) + 1;
+return 0;
+
+};
